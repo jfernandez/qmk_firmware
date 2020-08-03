@@ -54,6 +54,7 @@ void matrix_init_user(void) {
     // Start with the leds_white animation.
     led_animation_id = 7;
     led_lighting_mode = LED_MODE_KEYS_ONLY;
+    gcr_desired = LED_GCR_MAX - 120;
 };
 
 // Runs constantly in the background, in a loop.
