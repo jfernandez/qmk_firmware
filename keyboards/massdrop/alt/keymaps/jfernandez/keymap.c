@@ -53,6 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 void matrix_init_user(void) {
     // Start with the leds_white animation.
     led_animation_id = 7;
+    led_lighting_mode = LED_MODE_KEYS_ONLY;
 };
 
 // Runs constantly in the background, in a loop.
